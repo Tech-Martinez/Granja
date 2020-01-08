@@ -18,9 +18,8 @@ namespace GranjaSystem.Models
 
         //Relaciones Empleados
         public int IdGenetica { get; set; }
-        public virtual tblGeneticas Geneticas { get; set; }
+        public virtual tblGeneticas Genetica { get; set; }
 
-        
 
     }
 }
